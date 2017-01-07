@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+<taglib>
+<tlibversion>1.0</tlibversion>
+<jspversion>1.1</jspversion>
+<shortname>dtfu</shortname>
+<info>dtfu</info>
+<tag>
+     <name>fu</name>
+     <tagclass>org.springside.examples.common.util.FileUpload</tagclass>
+     <attribute>
+        <name>oldFileId</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     <attribute>
+        <name>newFileId</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     <attribute>
+        <name>filePath</name>
+        <required>true</required>
+        <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     <attribute>
+        <name>fileMax</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     <attribute>
+        <name>errFormat</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     <attribute>
+        <name>userId</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     <attribute>
+        <name>fileNum</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     <attribute>
+        <name>optionType</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+     </attribute>
+     <attribute>
+        <name>realName</name>
+        <required>false</required>
+        <rtexprvalue>true</rtexprvalue>
+     </attribute>
+</tag>
+</taglib>
